@@ -24,21 +24,21 @@ const Navbar = () => {
             <li>About</li>
             <li>Skills</li>
             <li>Work</li>
-            <li>contant</li>
+            <li>contact</li>
         </ul>
 
       {/*hamburger menu*/}
-        <div onClick={clickHandler} className='md:hidden z-10 text-4xl text-[#ff9a63]'>
+        <div onClick={clickHandler} className='md:hidden z-10 text-4xl text-[#ff9a63] cursor-pointer'>
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
     {/*mobile menu*/}
-    <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#111827] flex flex-col justify-center items-center'}>
+    <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
         <li className='mobile_li'>Home</li>
         <li className='mobile_li'>About</li>
         <li className='mobile_li'>Skills</li>
         <li className='mobile_li'>Work</li>
-        <li className='mobile_li'>contant</li>
+        <li className='mobile_li'>contact</li>
     </ul>
 
     {/*social icons*/}
