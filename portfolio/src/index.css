@@ -9,9 +9,9 @@
         @apply font-[Raleway];
     }
     li{
-        @apply px-4 cursor-pointer;
+        @apply px-4 cursor-pointer font-bold;
     }
     .mobile_li{
-        @apply py-6 text-4xl;
+        @apply py-6 text-4xl text-[#ff9a63];
     }
 }
