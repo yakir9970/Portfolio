@@ -15,7 +15,7 @@ const Navbar = () => {
 
       {/*logo*/}  
       <div>
-        <img src={Logo} alt="Logo" style={{width:'70px'}}/>
+        <img src={Logo} alt="Logo" style={{width:'80px'}}/>
       </div>
 
       {/*menu*/}
