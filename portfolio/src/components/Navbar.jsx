@@ -1,10 +1,11 @@
 import React, {useState,useEffect} from 'react'
 import {FaBars,FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {BsFillPersonLinesFill,BsSunFill,BsMoonFill} from 'react-icons/bs'
 import { SlArrowUp } from "react-icons/sl";
 import Logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
+import Switch from './Switch';
 
 const Navbar = () => {
     const [nav,setNav]=useState(false)
@@ -26,7 +27,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#E8F1F2]'>
+    <div className='z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] dark:bg-[#f9fafb] text-[#E8F1F2]'>
 
       {/*logo*/}  
       <div>
@@ -60,6 +61,11 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <BsMoonFill className='inline text-2xl -mt-4'/>
+            <Switch className='inline'/>
+            <BsSunFill className='inline text-2xl -mt-4'/>
+          </li>
         </ul>
 
       {/*hamburger menu*/}
@@ -68,7 +74,7 @@ const Navbar = () => {
         </div>
 
     {/*mobile menu*/}
-    <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+    <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] dark:bg-[#f9fafb] flex flex-col justify-center items-center'}>
         <li className='mobile_li'>
         <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
               Home
@@ -93,6 +99,11 @@ const Navbar = () => {
         <Link onClick={clickHandler} to="contact" smooth={true} duration={500}>
               Contact
             </Link>
+        </li>
+        <li className='mt-10'>
+          <BsMoonFill className='inline text-2xl -mt-4 text-[#ff9a63]'/>
+          <Switch className='inline'/>
+          <BsSunFill className='inline text-2xl -mt-4 text-[#ff9a63]'/>
         </li>
     </ul>
 

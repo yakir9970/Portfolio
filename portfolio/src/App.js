@@ -6,6 +6,8 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 
 function App() {
+  //document.documentElement.classList.add("dark");
+
   return (
     <div>
       <Navbar />
