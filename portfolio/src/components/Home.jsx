@@ -22,7 +22,7 @@ const Home = () => {
             delaySpeed={1000}
           />
         </span></h2>
-          <p className='text-[#ccd6f6] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia consequuntur excepturi est itaque ut numquam deserunt praesentium accusamus atque, porro eveniet sapiente, iure eligendi nemo enim rem. Doloribus, blanditiis.</p>
+          <p className='text-[#ccd6f6] font-bold py-4 max-w-[700px]'>I'm a full-stack developer specializing in building and designing exceptional digital experiences. Currently, I'm focused on building responsive full-stack web applications.</p>
           
           <Link to="work" smooth={true} duration={500}>
           <div>
