@@ -1,13 +1,27 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import {FaBars,FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { SlArrowUp } from "react-icons/sl";
 import Logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
 
 const Navbar = () => {
     const [nav,setNav]=useState(false)
-    const clickHandler = ()=>{
+    const [toTop,setToTop]=useState(false)
+
+    useEffect(()=>{
+      window.addEventListener("scroll",()=>{
+        if(window.scrollY > 100){
+          setToTop(true)
+        }
+        else{
+          setToTop(false)
+        }
+      })
+    },[])
+
+    const clickHandler = () => {
         setNav(!nav);
     }
 
@@ -107,6 +121,18 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
+
+    {/*BACK TO TOP*/}
+    {toTop && (
+    <div className='hidden md:flex fixed bottom-[3%] right-[3%] transition-all duration-500'>
+    <Link to="home" smooth={true} duration={500}>
+      <button className='p-2 border-2 border-[#ccd6f6] rounded-full text-5xl hover:border-[#0a192f] hover:bg-[#ccd6f6] hover:text-[#0a192f]'>
+        <SlArrowUp />
+      </button>
+    </Link>
+    </div>
+    )}
+
 
     </div>
   )

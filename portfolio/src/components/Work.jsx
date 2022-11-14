@@ -10,7 +10,7 @@ const Work = () => {
             <p className='py-4'>// Check out some of my recent work</p>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+        <div className='grid md:grid-cols-2 gap-4'>
 
             <div style={{backgroundImage: `url(${test})`}} className='relative shadow-lg shadow-[#535c74] group container rounded-md flex justify-center items-center mx-auto content-div'>
                 {/*hover effects */}
