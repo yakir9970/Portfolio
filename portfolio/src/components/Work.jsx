@@ -13,75 +13,78 @@ const Work = () => {
 
         <div className='grid md:grid-cols-2 gap-4'>
 
-            <div style={{backgroundImage: `url(${test})`}} className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <img src={test} alt="test" className='absolute top-0 right-0 group-hover:blur-[3px] w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
-                <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
+                <div className='opacity-0 group-hover:opacity-100 z-10'>
+                    <span className='text-3xl font-bold text-[#ff9a63] tracking-wider'>
                     test application name
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
-                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-2 border-black bg-transparent text-[#ccd6f6] font-bold text-lg'>Demo</button>
+                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Demo</button>
                         </a>
                         <a href="/">
-                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-2 border-black bg-white text-[#ccd6f6] font-bold text-lg'>Code</button>
+                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div style={{backgroundImage: `url(${test})`}} className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <img src={test} alt="test" className='absolute top-0 right-0 group-hover:blur-[3px] w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
-                <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
+                <div className='opacity-0 group-hover:opacity-100 z-10'>
+                    <span className='text-3xl font-bold text-[#ff9a63] tracking-wider'>
                     test application name
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
-                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-2 border-black bg-white text-[#ccd6f6] font-bold text-lg'>Demo</button>
+                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Demo</button>
                         </a>
                         <a href="/">
-                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-2 border-black bg-white text-[#ccd6f6] font-bold text-lg'>Code</button>
+                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div style={{backgroundImage: `url(${test})`}} className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <img src={test} alt="test" className='absolute top-0 right-0 group-hover:blur-[3px] w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
-                <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
+                <div className='opacity-0 group-hover:opacity-100 z-10'>
+                    <span className='text-3xl font-bold text-[#ff9a63] tracking-wider'>
                     test application name
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
-                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-2 border-black bg-white text-[#ccd6f6] font-bold text-lg'>Demo</button>
+                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Demo</button>
                         </a>
                         <a href="/">
-                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-2 border-black bg-white text-[#ccd6f6] font-bold text-lg'>Code</button>
+                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div style={{backgroundImage: `url(${test})`}} className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <img src={test} alt="test" className='absolute top-0 right-0 group-hover:blur-[3px] w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
-                <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
+                <div className='opacity-0 group-hover:opacity-100 z-10'>
+                    <span className='text-3xl font-bold text-[#ff9a63] tracking-wider'>
                     test application name
                     </span>
                     <div className='pt-8 text-center'>
                         <a href="/">
-                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-2 border-black bg-white text-[#ccd6f6] font-bold text-lg'>Demo</button>
+                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Demo</button>
                         </a>
                         <a href="/">
-                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-2 border-black bg-white text-[#ccd6f6] font-bold text-lg'>Code</button>
+                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-
       </div>
     </div>
   )
