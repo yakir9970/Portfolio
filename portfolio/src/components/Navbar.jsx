@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill,BsSunFill,BsMoonFill} from 'react-icons/bs'
 import { SlArrowUp } from "react-icons/sl";
 import Logo from '../assets/logo.png'
+import LogoLight from '../assets/LogoLight.png'
 import {Link} from 'react-scroll'
 import Switch from './Switch';
 
@@ -26,16 +27,19 @@ const Navbar = () => {
         setNav(!nav);
     }
 
+   
+
   return (
     <div className='z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] dark:bg-[#f9fafb] text-[#E8F1F2]'>
 
       {/*logo*/}  
       <div>
-        <img src={Logo} alt="Logo" style={{width:'80px'}}/>
+        <img src={Logo} alt="Logo" style={{width:'80px'}} className="dark:hidden" />
+        <img src={LogoLight} alt="LogoLight" style={{width:'80px'}} className="hidden dark:block" />
       </div>
 
       {/*menu*/}
-        <ul className='hidden md:flex text-[#ff9a63]'>
+        <ul className='hidden md:flex text-[#ff9a63] dark:text-[#3429aa]'>
           <li>
             <Link to="home" smooth={true} duration={500}>
               Home
@@ -69,7 +73,7 @@ const Navbar = () => {
         </ul>
 
       {/*hamburger menu*/}
-        <div onClick={clickHandler} className='md:hidden z-10 text-4xl text-[#ff9a63] cursor-pointer'>
+        <div onClick={clickHandler} className='md:hidden z-10 text-4xl text-[#ff9a63] dark:text-[#3429aa] cursor-pointer'>
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
@@ -101,9 +105,9 @@ const Navbar = () => {
             </Link>
         </li>
         <li className='mt-10'>
-          <BsMoonFill className='inline text-2xl -mt-4 text-[#ff9a63]'/>
+          <BsMoonFill className='inline text-2xl -mt-4 text-[#ff9a63] dark:text-[#3429aa]'/>
           <Switch className='inline'/>
-          <BsSunFill className='inline text-2xl -mt-4 text-[#ff9a63]'/>
+          <BsSunFill className='inline text-2xl -mt-4 text-[#ff9a63] dark:text-[#3429aa]'/>
         </li>
     </ul>
 
@@ -137,7 +141,7 @@ const Navbar = () => {
     {toTop && (
     <div className='hidden md:flex fixed bottom-[3%] right-[3%] transition-all duration-500'>
     <Link to="home" smooth={true} duration={500}>
-      <button className='p-2 border-2 border-[#ccd6f6] rounded-full text-5xl hover:border-[#0a192f] hover:bg-[#ccd6f6] hover:text-[#0a192f]'>
+      <button className='p-2 border-2 border-[#ccd6f6] dark:border-[#374151] dark:text-[#374151] rounded-full text-5xl hover:border-[#0a192f] dark:hover:border-[#f9fafb] hover:bg-[#ccd6f6] dark:hover:bg-[#374151] hover:text-[#0a192f] dark:hover:text-[#f9fafb]'>
         <SlArrowUp />
       </button>
     </Link>
