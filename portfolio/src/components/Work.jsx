@@ -1,5 +1,8 @@
 import React from 'react'
-import test from '../assets/test.png'
+import Where from '../assets/where.png'
+import proshop from '../assets/proshop.png'
+import todo from '../assets/todo.png'
+import blog from '../assets/blog.png'
 
 const Work = () => {
   return (
@@ -14,72 +17,72 @@ const Work = () => {
         <div className='grid md:grid-cols-2 gap-4'>
 
             <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                <img src={test} alt="test" className='absolute top-0 right-0 group-hover:blur-[3px] w-full h-full object-cover rounded-md' />
+                <img src={Where} alt="test" className='absolute top-0 right-0 group-hover:blur-sm w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
                 <div className='opacity-0 group-hover:opacity-100 z-10'>
-                    <span className='text-3xl font-bold text-[#ff9a63] tracking-wider'>
-                    test application name
+                    <span className='text-3xl font-extrabold text-[#0a192f] tracking-wider'>
+                    Where is it? - Share Places
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Demo</button>
+                        <a target="_blank" href="https://where-is-it-mern.web.app/">
+                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Demo</button>
                         </a>
-                        <a href="/">
-                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Code</button>
+                        <a target="_blank" href="https://github.com/yakir9970/MERN-Share-Places">
+                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
 
             <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                <img src={test} alt="test" className='absolute top-0 right-0 group-hover:blur-[3px] w-full h-full object-cover rounded-md' />
+                <img src={proshop} alt="test" className='absolute top-0 right-0 group-hover:blur-sm w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
                 <div className='opacity-0 group-hover:opacity-100 z-10'>
-                    <span className='text-3xl font-bold text-[#ff9a63] tracking-wider'>
-                    test application name
+                    <span className='text-3xl font-extrabold text-[#0a192f] tracking-wider'>
+                    ProShop - Tech Store
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Demo</button>
+                        <a target="_blank" href="https://proshop-travish.herokuapp.com/">
+                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Demo</button>
                         </a>
-                        <a href="/">
-                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Code</button>
+                        <a target="_blank" href="https://github.com/yakir9970/MERN-eCommerce">
+                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
 
             <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                <img src={test} alt="test" className='absolute top-0 right-0 group-hover:blur-[3px] w-full h-full object-cover rounded-md' />
+                <img src={todo} alt="test" className='absolute top-0 right-0 group-hover:blur-sm w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
                 <div className='opacity-0 group-hover:opacity-100 z-10'>
-                    <span className='text-3xl font-bold text-[#ff9a63] tracking-wider'>
-                    test application name
+                    <span className='text-3xl font-extrabold text-[#0a192f] tracking-wider'>
+                    Team Todo List
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Demo</button>
+                        <a target="_blank" href="https://github.com/yakir9970/todo">
+                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Demo</button>
                         </a>
-                        <a href="/">
-                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Code</button>
+                        <a target="_blank" href="https://todo-list-yakir.herokuapp.com">
+                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Code</button>
                         </a>
                     </div>
                 </div>
             </div>
 
             <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                <img src={test} alt="test" className='absolute top-0 right-0 group-hover:blur-[3px] w-full h-full object-cover rounded-md' />
+                <img src={blog} alt="test" className='absolute top-0 right-0 group-hover:blur-sm w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
                 <div className='opacity-0 group-hover:opacity-100 z-10'>
-                    <span className='text-3xl font-bold text-[#ff9a63] tracking-wider'>
-                    test application name
+                    <span className='text-3xl font-extrabold text-[#0a192f] tracking-wider'>
+                    Personal Heros Blog
                     </span>
                     <div className='pt-8 text-center'>
-                        <a href="/">
-                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Demo</button>
+                        <a target="_blank" href="https://github.com/yakir9970/MEVN1">
+                            <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Demo</button>
                         </a>
-                        <a href="/">
-                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#ff9a63] font-bold text-xl'>Code</button>
+                        <a target="_blank" href="https://vast-dawn-98978.herokuapp.com/">
+                            <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Code</button>
                         </a>
                     </div>
                 </div>
