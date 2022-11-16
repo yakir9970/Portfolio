@@ -110,18 +110,18 @@ const Navbar = () => {
           <Switch className='inline'/>
           <BsSunFill className='inline text-2xl -mt-4 text-[#ff9a63] dark:text-[#3429aa]'/>
         </li>
-        <li className='mt-10 inline-flex space-x-4'>
+        <li className='fixed bottom-24 inline-flex space-x-4'>
           <a className='bg-[#0A66C2] border-4 border-[#0A66C2]' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yakir-travish/">
-            <FaLinkedin size={30}/>
+            <FaLinkedin size={50}/>
           </a>
           <a className='bg-[#333] border-4 border-[#333]' target="_blank" rel="noreferrer" href="https://github.com/yakir9970">
-            <FaGithub size={30}/>
+            <FaGithub size={50}/>
           </a>
           <a className='bg-[#34A853] border-4 border-[#34A853]' href = "mailto: yakir.travish1@gmail.com">
-            <HiOutlineMail size={30}/>
+            <HiOutlineMail size={50}/>
           </a>
           <a className='bg-[#717b87] border-4 border-[#717b87]' href={CV} download>
-            <BsFillPersonLinesFill size={30}/>
+            <BsFillPersonLinesFill size={50}/>
           </a>
         </li>
     </ul>
