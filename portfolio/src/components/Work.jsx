@@ -24,10 +24,10 @@ const Work = () => {
                     Where is it? - Share Places
                     </span>
                     <div className='pt-8 text-center'>
-                        <a target="_blank" href="https://where-is-it-mern.web.app/">
+                        <a target="_blank" rel="noreferrer" href="https://where-is-it-mern.web.app/">
                             <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Demo</button>
                         </a>
-                        <a target="_blank" href="https://github.com/yakir9970/MERN-Share-Places">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/yakir9970/MERN-Share-Places">
                             <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Code</button>
                         </a>
                     </div>
@@ -42,10 +42,10 @@ const Work = () => {
                     ProShop - Tech Store
                     </span>
                     <div className='pt-8 text-center'>
-                        <a target="_blank" href="https://proshop-travish.herokuapp.com/">
+                        <a target="_blank" rel="noreferrer" href="https://proshop-travish.herokuapp.com/">
                             <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Demo</button>
                         </a>
-                        <a target="_blank" href="https://github.com/yakir9970/MERN-eCommerce">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/yakir9970/MERN-eCommerce">
                             <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Code</button>
                         </a>
                     </div>
@@ -60,10 +60,10 @@ const Work = () => {
                     Team Todo List
                     </span>
                     <div className='pt-8 text-center'>
-                        <a target="_blank" href="https://github.com/yakir9970/todo">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/yakir9970/todo">
                             <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Demo</button>
                         </a>
-                        <a target="_blank" href="https://todo-list-yakir.herokuapp.com">
+                        <a target="_blank" rel="noreferrer" href="https://todo-list-yakir.herokuapp.com">
                             <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Code</button>
                         </a>
                     </div>
@@ -78,10 +78,10 @@ const Work = () => {
                     Personal Heros Blog
                     </span>
                     <div className='pt-8 text-center'>
-                        <a target="_blank" href="https://github.com/yakir9970/MEVN1">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/yakir9970/MEVN1">
                             <button className='absolute bottom-0 right-0 text-center w-1/2 py-3 border-t-2 border-l-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Demo</button>
                         </a>
-                        <a target="_blank" href="https://vast-dawn-98978.herokuapp.com/">
+                        <a target="_blank" rel="noreferrer" href="https://vast-dawn-98978.herokuapp.com/">
                             <button className='absolute bottom-0 left-0 text-center w-1/2 py-3 border-t-2 border-r-[1px] border-[#535c74]/80 hover:bg-[#0a192f]/95 rounded-md hover:text-[#ff9a63] bg-transparent text-[#0a192f] font-bold text-xl'>Code</button>
                         </a>
                     </div>

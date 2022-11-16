@@ -7,6 +7,7 @@ import Logo from '../assets/logo.png'
 import LogoLight from '../assets/LogoLight.png'
 import {Link} from 'react-scroll'
 import Switch from './Switch';
+import CV from '../assets/Yakir_Travish_CV.pdf'
 
 const Navbar = () => {
     const [nav,setNav]=useState(false)
@@ -109,28 +110,42 @@ const Navbar = () => {
           <Switch className='inline'/>
           <BsSunFill className='inline text-2xl -mt-4 text-[#ff9a63] dark:text-[#3429aa]'/>
         </li>
+        <li className='mt-10 inline-flex space-x-4'>
+          <a className='bg-[#0A66C2] border-4 border-[#0A66C2]' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yakir-travish/">
+            <FaLinkedin size={30}/>
+          </a>
+          <a className='bg-[#333] border-4 border-[#333]' target="_blank" rel="noreferrer" href="https://github.com/yakir9970">
+            <FaGithub size={30}/>
+          </a>
+          <a className='bg-[#34A853] border-4 border-[#34A853]' href = "mailto: yakir.travish1@gmail.com">
+            <HiOutlineMail size={30}/>
+          </a>
+          <a className='bg-[#717b87] border-4 border-[#717b87]' href={CV} download>
+            <BsFillPersonLinesFill size={30}/>
+          </a>
+        </li>
     </ul>
 
     {/*social icons*/}
     <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
       <ul>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
-          <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' href="/">
+          <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yakir-travish/">
             LinkedIn <FaLinkedin size={30}/>
           </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]'>
-          <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' href="/">
+          <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' target="_blank" rel="noreferrer" href="https://github.com/yakir9970">
             GitHub <FaGithub size={30}/>
           </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#34A853]'>
-          <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' href="/">
+          <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' href = "mailto: yakir.travish1@gmail.com">
             E-Mail <HiOutlineMail size={30}/>
           </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#717b87]'>
-          <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' href="/">
+          <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' href={CV} download>
             Resume <BsFillPersonLinesFill size={30}/>
           </a>
         </li>
