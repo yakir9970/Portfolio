@@ -18,7 +18,7 @@ const Skills = () => {
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#ff9a63] dark:border-[#3429aa]'>Skills</p>
               {/*eslint-disable-next-line*/}
-                <p className='py-4'>// These are the technologies I've worked with</p>
+                <p className='py-4'>// Technologies I've worked with</p>
             </div>
 
             <div className='w-full grid grid-cols-2 md:grid-cols-4 gap-4 text-center py-8'>

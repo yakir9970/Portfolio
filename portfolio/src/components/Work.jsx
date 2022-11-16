@@ -11,17 +11,17 @@ const Work = () => {
         <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-[#ff9a63] dark:border-[#3429aa]'>Work</p>
               {/*eslint-disable-next-line*/}
-            <p className='py-4'>// Check out some of my recent work</p>
+            <p className='py-4'>// Some of my recent work</p>
         </div>
 
         <div className='grid md:grid-cols-2 gap-4'>
 
-            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                <img src={Where} alt="test" className='absolute top-0 right-0 group-hover:blur-sm w-full h-full object-cover rounded-md' />
+            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group/item container rounded-md flex justify-center items-center mx-auto content-div'>
+                <img src={Where} alt="test" className='absolute top-0 right-0 group-hover/item:blur-sm w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
-                <div className='opacity-0 group-hover:opacity-100 z-10'>
+                <div className='invisible group-hover/item:visible md:group-hover:flex z-10'>
                     <span className='text-3xl font-extrabold text-[#0a192f] tracking-wider'>
-                    Where is it? - Share Places
+                    Where is it? - Share places
                     </span>
                     <div className='pt-8 text-center'>
                         <a target="_blank" rel="noreferrer" href="https://where-is-it-mern.web.app/">
@@ -34,12 +34,12 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                <img src={proshop} alt="test" className='absolute top-0 right-0 group-hover:blur-sm w-full h-full object-cover rounded-md' />
+            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group/item container rounded-md flex justify-center items-center mx-auto content-div'>
+                <img src={proshop} alt="test" className='absolute top-0 right-0 group-hover/item:blur-sm w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
-                <div className='opacity-0 group-hover:opacity-100 z-10'>
+                <div className='invisible group-hover/item:visible md:group-hover:flex z-10'>
                     <span className='text-3xl font-extrabold text-[#0a192f] tracking-wider'>
-                    ProShop - Tech Store
+                    ProShop - Tech store
                     </span>
                     <div className='pt-8 text-center'>
                         <a target="_blank" rel="noreferrer" href="https://proshop-travish.herokuapp.com/">
@@ -52,12 +52,12 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                <img src={todo} alt="test" className='absolute top-0 right-0 group-hover:blur-sm w-full h-full object-cover rounded-md' />
+            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group/item container rounded-md flex justify-center items-center mx-auto content-div'>
+                <img src={todo} alt="test" className='absolute top-0 right-0 group-hover/item:blur-sm w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
-                <div className='opacity-0 group-hover:opacity-100 z-10'>
+                <div className='invisible group-hover/item:visible md:group-hover:flex z-10'>
                     <span className='text-3xl font-extrabold text-[#0a192f] tracking-wider'>
-                    Team Todo List
+                    Team to-do List
                     </span>
                     <div className='pt-8 text-center'>
                         <a target="_blank" rel="noreferrer" href="https://github.com/yakir9970/todo">
@@ -70,12 +70,12 @@ const Work = () => {
                 </div>
             </div>
 
-            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                <img src={blog} alt="test" className='absolute top-0 right-0 group-hover:blur-sm w-full h-full object-cover rounded-md' />
+            <div className='relative shadow-lg shadow-[#535c74] dark:shadow-[#374151] group/item container rounded-md flex justify-center items-center mx-auto content-div'>
+                <img src={blog} alt="test" className='absolute top-0 right-0 group-hover/item:blur-sm w-full h-full object-cover rounded-md' />
                 {/*hover effects */}
-                <div className='opacity-0 group-hover:opacity-100 z-10'>
+                <div className='invisible group-hover/item:visible md:group-hover:flex z-10'>
                     <span className='text-3xl font-extrabold text-[#0a192f] tracking-wider'>
-                    Personal Heros Blog
+                    Personal heroes blog
                     </span>
                     <div className='pt-8 text-center'>
                         <a target="_blank" rel="noreferrer" href="https://github.com/yakir9970/MEVN1">

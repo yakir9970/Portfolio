@@ -74,7 +74,7 @@ const Navbar = () => {
         </ul>
 
       {/*hamburger menu*/}
-        <div onClick={clickHandler} className='md:hidden z-10 text-4xl text-[#ff9a63] dark:text-[#3429aa] cursor-pointer'>
+        <div onClick={clickHandler} className='md:hidden z-20 text-4xl text-[#ff9a63] dark:text-[#3429aa] cursor-pointer'>
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
@@ -129,22 +129,22 @@ const Navbar = () => {
     {/*social icons*/}
     <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
       <ul>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
+        <li className='w-[160px] h-[60px] flex justify-between items-center lg:ml-[-100px] md:ml-[-150px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
           <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/yakir-travish/">
             LinkedIn <FaLinkedin size={30}/>
           </a>
         </li>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333]'>
+        <li className='w-[160px] h-[60px] flex justify-between items-center lg:ml-[-100px] md:ml-[-150px] hover:ml-[-10px] duration-300 bg-[#333]'>
           <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' target="_blank" rel="noreferrer" href="https://github.com/yakir9970">
             GitHub <FaGithub size={30}/>
           </a>
         </li>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#34A853]'>
+        <li className='w-[160px] h-[60px] flex justify-between items-center lg:ml-[-100px] md:ml-[-150px] hover:ml-[-10px] duration-300 bg-[#34A853]'>
           <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' href = "mailto: yakir.travish1@gmail.com">
             E-Mail <HiOutlineMail size={30}/>
           </a>
         </li>
-        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#717b87]'>
+        <li className='w-[160px] h-[60px] flex justify-between items-center lg:ml-[-100px] md:ml-[-150px] hover:ml-[-10px] duration-300 bg-[#717b87]'>
           <a className='flex justify-between items-center w-full text-lg font-bold text-gray-300' href={CV} download>
             Resume <BsFillPersonLinesFill size={30}/>
           </a>

@@ -13,7 +13,7 @@ const Home = () => {
           <h2 className='text-4xl md:text-7xl font-bold dark:text-[#6d809e] text-[#a3b5e3]'>I'm a{' '}
           <span className='dark:text-[#3429aa] text-[#ff9a63] font-bold'>
           <Typewriter
-            words={["Full stack developer","Back end developer","Front end developer","Software engineer"]}
+            words={["full stack developer","back end developer","front end developer","software engineer"]}
             loop={30}
             cursor
             cursorStyle='|'

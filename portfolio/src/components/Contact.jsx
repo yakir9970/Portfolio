@@ -1,4 +1,6 @@
 import React from 'react'
+import {HiOutlineMail} from 'react-icons/hi'
+
 
 const Contact = () => {
   return (
@@ -9,7 +11,10 @@ const Contact = () => {
             <div className='py-4'>
               {/*eslint-disable-next-line*/}
               <p className=' inline'>// Submit the form below or send me an email - </p>
-              <p className='font-bold inline'>Yakir.Travish1@gmail.com</p>
+              <a className='font-bold inline' href = "mailto: yakir.travish1@gmail.com">
+              <HiOutlineMail size={30} className="inline mr-1"/>
+                yakir.travish1@gmail.com
+              </a>
             </div>
         </div>
 
